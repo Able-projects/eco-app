@@ -1,0 +1,115 @@
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2d0a31;
+    height: 100px;
+    z-index: 100;
+    transition: 2s;
+}
+#blog-menu{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #a007ff 0%, #ef67ff 100%);
+    padding: 20px;
+    position: absolute;
+    top:80px;
+    left: 65%;
+}
+
+body{
+    
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.logo-div{
+    width:40%;
+}
+.nav-div{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-div a{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.nav-div a:hover{
+    color: violet;
+    border-bottom: 1px solid violet;
+    animation-name: borderAnimation;
+    animation-duration: 2s;
+}
+#menu-nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #4c1e51;
+    justify-content: center;
+    align-items: baseline;
+    padding: 20px;
+    padding-top: 40px;
+    width: 80%;
+    z-index: 1;
+    display: none;
+    border-bottom: 1px solid white;
+}
+#menu-nav a{
+    line-height: 30px;
+}
+@keyframes borderAnimation {
+    from {
+        border-bottom: 1px solid yellow;
+    }
+    to {
+        border-bottom: 1px solid violet;
+    }
+}
+
+.rose-btn{
+    color: white;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #a007ff 0%, #ef67ff 100%);
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+
+.menu-btn{
+    background-color: transparent;
+    width: 40px;
+    border: none;
+    display: none;
+}
+.menu-btn img{
+    width: 100%;
+}
+.log-out-div{
+    display: none;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -30px;
+}
+.log-out-div button{
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+@media screen and (max-width:1000px){
+    .nav-div{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    header{
+        flex-wrap: wrap;
+    }
+}

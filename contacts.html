@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-hosting</title>
+    <link rel='stylesheet' href='./styles/index.css'>
+    <script src='./js/index.js' defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body> 
+    <header id='header'>
+        <div class="logo-div">
+            <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/logo/logo.png' alt='logo'/>
+        </div>
+        <nav class="nav-div">
+            <a href="./index.html">HOME</a>
+            <a href="#">PACKAGES</a>
+            <a href="./help.html">HELP</a>
+            <a href="#" id='blog-link'>BLOG</a>
+            <div id='blog-menu'>
+                <a href="./blog.html">BLOG</a>
+                <a href="./blog-details.html">BLOG DETAIL</a>
+                <a href="#">ELEMENT</a>
+            </div>
+            <a href="#">CONTACT</a>
+            <div id='auth-user'>
+                <button class="rose-btn">SIGN UP</button>
+                <a href="./login.html">SIGN IN</a>
+            </div> 
+        </nav>
+        <button class="menu-btn" onclick="showMenu()"><img src='./images/menu.svg'/></button>
+        <nav class="nav-div" id='menu-nav'>
+            <a href="./index.html">HOME</a>
+            <a>PACKAGES</a>
+            <a>HELP</a>
+            <a>BLOG</a>
+            <a>CONTACT</a>
+            <button class="rose-btn">SIGN UP</button>
+            <a>SIGN IN</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h1>Contact us</h1>
+        </section>
+        <!-- <section class="map-section">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A33cbb80282350a83a4da9c0ea7fad4840227fd75ffef91a2dda5590ea9df8602&amp;source=constructor" width="100%" height="456" frameborder="0"></iframe>
+        </section> -->
+        <section class="form-contacts">
+            <div class="form-div-1">
+                <form>
+                    <h1>Get in Touch</h1>
+                    <textarea placeholder="Enter text" name='text' rows="10" required id='form-text'></textarea>
+                    <div>
+                        <input type="text" placeholder="Enter your name" name='name' id='form-name' required>
+                        <input type='email' placeholder="Enter email" name='email' id='form-email' required>
+                    </div>
+                    <input type='text' placeholder="Enter Subject" name='subject' id='form-subject' required>
+                    <button type="submit" onclick="saveData(event)">Sent</button>
+                </form>
+               
+            </div>
+            <div class="form-div-2">
+                <div>
+                    <div>
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <p>Buttonwood, California.<br><span>Rosemead, CA 91770</span></p>
+                </div>
+                <div>
+                    <div>
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <p>+1 253 565 2365<br><span>Mon to Fri 9am to 6pm</span></p>
+                </div>
+                <div>
+                    <div>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <p>support@colorlib.com<br><span>Send us your query anytime!</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-row">
+            <div class="footer-item-1">
+                <div class="logo-div">
+                    <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/logo/logo.png' alt='logo'/>
+                </div>
+                <p>Subscribe our newsletter to get updates about our services</p>
+                <button class="email-btn">
+                    Email Address
+                </button>
+                <button class="subscribe-btn">
+                    Subscribe
+                </button>
+                <div>
+                    <a href='https://www.instagram.com/'><i class="fab fa-instagram"></i></a>
+                    <a href='https://www.instagram.com/'><i class="fab fa-pinterest-p"></i></i></a>
+                    <a href='https://www.instagram.com/'><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h1>Company</h1>
+                <a>Why choose us</a>
+                <a>Review</a>
+                <a>Customers</a>
+                <a>Blog</a>
+                <a>Carrier</a>
+            </div>
+            <div class="footer-item">
+                <h1>Company</h1>
+                <a>Why choose us</a>
+                <a>Review</a>
+                <a>Customers</a>
+                <a>Blog</a>
+                <a>Carrier</a>
+            </div>
+            <div class="footer-item">
+                <h1>Company</h1>
+                <a>Why choose us</a>
+                <a>Review</a>
+                <a>Customers</a>
+                <a>Blog</a>
+                <a>Carrier</a>
+            </div>
+        </div>
+        <p>Copyright ©2021 All rights reserved | This template is made with  by Colorlib</p>
+        <a href='#main' id='arrow' class="footer-arrow"><i class="fas fa-long-arrow-alt-up"></i></a>
+    </footer>
+    
+</body>
+</html>
+

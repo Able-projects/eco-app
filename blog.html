@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-hosting</title>
+    <link rel='stylesheet' href='./styles/index.css'>
+    <script src='./js/index.js' defer></script>
+    <script src='./js/blog.js' defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body> 
+    <header id='header'>
+        <div class="logo-div">
+            <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/logo/logo.png' alt='logo'/>
+        </div>
+        <nav class="nav-div">
+            <a href="./index.html">HOME</a>
+            <a href="#">PACKAGES</a>
+            <a href="./help.html">HELP</a>
+            <a href="#" id='blog-link'>BLOG</a>
+            <div id='blog-menu'>
+                <a href="./blog.html">BLOG</a>
+                <a href="./blog-details.html">BLOG DETAIL</a>
+                <a href="#">ELEMENT</a>
+            </div>
+            <a href="#">CONTACT</a>
+            <div id='auth-user'>
+                <button class="rose-btn">SIGN UP</button>
+                <a href="./login.html">SIGN IN</a>
+            </div> 
+        </nav>
+        <button class="menu-btn" onclick="showMenu()"><img src='./images/menu.svg'/></button>
+        <nav class="nav-div" id='menu-nav'>
+            <a href="./index.html">HOME</a>
+            <a>PACKAGES</a>
+            <a>HELP</a>
+            <a>BLOG</a>
+            <a>CONTACT</a>
+            <button class="rose-btn">SIGN UP</button>
+            <a>SIGN IN</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h1>Blog</h1>
+        </section>
+       <section class="blog-section">
+           <div class="blog-post" id='response-blog'>
+               <div class="post">
+                   <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/blog/single_blog_1.png'>
+                   <button><h1>31</h1><p>Jan</p></button>
+                   <div class="post-inner-div">
+                       <h1>Google inks pact for new 35-storey office</h1>
+                       <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
+                       <div>
+                            <a href="#"><i class="fas fa-user"></i>Travel,Lifestyle</a> |
+                            <a href="#"><i class="fas fa-comments"></i>03 Comments</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="blog-items">
+               <form class="search-blog">
+                   <div>
+                       <input placeholder="Search Keyword">
+                       <button><img src='./images/search.svg'/></button>
+                   </div>
+                   <button>Search</button>
+               </form>
+               <div class="category-blog">
+                   <h1>Category</h1>
+                   <hr>
+                   <a href="#">Resaurant food (37)</a>
+                   <hr>
+                   <a href="#">Resaurant food (37)</a>
+                   <hr>
+                   <a href="#">Modern technology (03)</a>
+                   <hr>
+                   <a href="#">Resaurant (51)</a>
+                   <hr>
+                   <a href="#">Health Care (21) </a>
+               </div>
+               <div class="category-blog">
+                    <h1>Recent Post</h1>
+                    <hr>
+                    <div class="recent-item">
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_1.png'>
+                        <div>
+                            <h3>From life was you fish...</h3>
+                            <p>January 12, 2019</p>
+                        </div>
+                    </div>
+                    <div class="recent-item">
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_2.png'>
+                        <div>
+                            <h3>From life was you fish...</h3>
+                            <p>January 12, 2019</p>
+                        </div>
+                    </div>
+                    <div class="recent-item">
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_3.png'>
+                        <div>
+                            <h3>From life was you fish...</h3>
+                            <p>January 12, 2019</p>
+                        </div>
+                    </div>
+                    <div class="recent-item">
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_1.png'>
+                        <div>
+                            <h3>From life was you fish...</h3>
+                            <p>January 12, 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-blog">
+                    <h1>Tag Clouds</h1>
+                    <hr>
+                    <div class="tags-div">
+                        <button>project</button>
+                        <button>love</button>
+                        <button>project</button>
+                        <button>technology</button>
+                        <button>design</button>
+                        <button>travel</button>
+                        <button>design</button>
+                        <button>life style</button>
+                    </div>
+                </div>
+                <div class="category-blog">
+                    <h1>Instagram Feeds</h1>
+                    <hr>
+                    <div class="img-div">
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_5.png'/>
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_5.png'/>
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_6.png'/>
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_7.png'/>
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_8.png'/>
+                        <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/post/post_9.png'/>
+                    </div>
+                </div>
+                <form class="search-blog">
+                    <h1>Instagram Feeds</h1>
+                    <hr>
+                    <div>
+                        <input placeholder="Email">
+                    </div>
+                    <button>Subscribe</button>
+                </form>
+           </div>
+       </section>
+    </main>
+    <footer>
+        <div class="footer-row">
+            <div class="footer-item-1">
+                <div class="logo-div">
+                    <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/logo/logo.png' alt='logo'/>
+                </div>
+                <p>Subscribe our newsletter to get updates about our services</p>
+                <button class="email-btn">
+                    Email Address
+                </button>
+                <button class="subscribe-btn">
+                    Subscribe
+                </button>
+                <div>
+                    <a href='https://www.instagram.com/'><i class="fab fa-instagram"></i></a>
+                    <a href='https://www.instagram.com/'><i class="fab fa-pinterest-p"></i></i></a>
+                    <a href='https://www.instagram.com/'><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h1>Company</h1>
+                <a>Why choose us</a>
+                <a>Review</a>
+                <a>Customers</a>
+                <a>Blog</a>
+                <a>Carrier</a>
+            </div>
+            <div class="footer-item">
+                <h1>Company</h1>
+                <a>Why choose us</a>
+                <a>Review</a>
+                <a>Customers</a>
+                <a>Blog</a>
+                <a>Carrier</a>
+            </div>
+            <div class="footer-item">
+                <h1>Company</h1>
+                <a>Why choose us</a>
+                <a>Review</a>
+                <a>Customers</a>
+                <a>Blog</a>
+                <a>Carrier</a>
+            </div>
+        </div>
+        <p>Copyright ©2021 All rights reserved | This template is made with  by Colorlib</p>
+        <a href='#main' id='arrow' class="footer-arrow"><i class="fas fa-long-arrow-alt-up"></i></a>
+    </footer>
+</body>
+</html>
+

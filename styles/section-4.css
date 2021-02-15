@@ -1,0 +1,92 @@
+.section-4{
+    background: linear-gradient(5deg,#ffffff 50%,#2d0a31 50.1%);
+    height: auto;
+}
+
+.p-center{
+    text-align: center;
+    color: #7a8290;
+    font-size: 17px;
+    line-height: 24px;
+    width: 55%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.section-4-row{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarif-card{
+    width: 360px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tarif-card h1{
+    color: #2d0a31;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+.tarif-card p{
+    line-height: 24px;
+    color: #aaaaaa;
+    margin: 15px auto;
+}
+
+.tarif-card h1 span{
+    font-size: 14px;
+    color: grey;
+    font-weight: 400;
+}
+
+.tarif-card button{
+    background-color: white;
+    border: 1px solid #f067ff;
+    border-radius: 25px;
+    height: 45px;
+    width: 70%;
+    color: #f067ff;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.tarif-card button:hover{
+    color: white;
+    background: linear-gradient(to bottom, #a425f3 0%, #ef67ff 100%);
+    animation-name: btnEffect;
+    animation-duration: 1s;
+}
+@keyframes btnEffect {
+    from {
+        color: transparent;
+    }
+    to {
+        color: white;
+    }
+}
+@media screen and (max-width:1000px){
+    /* .tarif-card{
+        width: 45%;
+    } */
+   
+}
+
+/* @media screen and (max-width:600px){
+    .tarif-card{
+        width: 90%;
+    }
+} */

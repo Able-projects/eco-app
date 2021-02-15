@@ -1,0 +1,110 @@
+.section-2-row{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.section-2-input > img{
+    width: 36px;
+}
+
+.section-2-input button{
+    background: linear-gradient(to bottom, #a007ff 0%, #ef67ff 100%);
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+.section-2-input button img{
+    width: 24px;
+}
+
+.section-2-input input{
+    border: none;
+    height: 60px;
+    width: 80%;
+    outline:none;
+    font-size: 16px;
+}
+
+.section-2-column-1{
+    width: 30%;
+}
+
+.section-2-column-2{
+    width: 55%;
+}
+
+.section-2{
+    background-color: #2d0a31;
+}
+
+.section-2-column-1 h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.section-2-column-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.section-2-input{
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-p-span{
+    color: white;
+    margin-top: 25px;
+    margin-left: 15%;
+    width: 70%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-p-span p span{
+    font-size: 21px;
+}
+
+.red-span{
+    color: red;
+}
+
+.yellow-span{
+    color: yellow;
+}
+
+.green-span{
+    color: green;
+}
+
+.purple-span{
+    color: purple;
+}
+
+@media screen and (max-width:1000px){
+    .section-2-row{
+        flex-wrap: wrap;
+    }
+    .section-2-column-1{
+        width: 100%;
+    } 
+    .section-2-column-2{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .div-p-span{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-hosting</title>
+    <script src='./js/login.js' defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='./styles/index.css'>
+</head>
+<body>
+    <video muted autoplay loop id="bg-video">
+        <source src='./images/login-bg.mp4'>
+    </video>
+    <div class="login-container">
+        <div>
+            <a href='./index.html'>
+                <img src='https://preview.colorlib.com/theme/ecohosting/assets/img/logo/loder.png'/>
+            </a>
+        </div>
+        <h1>
+            Login Here
+        </h1>
+        <form class="login-form">
+            <label>Email</label>
+            <input placeholder="Email" type="email" id='login-email'>
+            <label>Password</label>
+            <input placeholder="Password" type="password" id='login-password'>
+            <button type='submit' onclick="loginUser(event)">Login</button>
+        </form>
+        <section>
+            <a>Forget Password</a>
+            <a>Registration</a>
+        </section> 
+    </div>
+</body>
+</html>

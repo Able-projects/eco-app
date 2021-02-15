@@ -34,6 +34,7 @@ function loginUser(e){
 
 function registerUser(e){
     e.preventDefault();
+    console.log('test')
     let email1 = $('#register-email').val()
     let password1 = $('#register-password').val()
     let name1 = $("#register-name").val()
